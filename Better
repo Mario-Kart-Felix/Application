@@ -1,0 +1,100 @@
+/*! BetterDocs.js v1.0.0 | (c) 2017 TIBCO Software Inc. | Written by Chris Ferdinandi | All Rights Reserved */
+/* line 5, src/sass/components/_betterDocs.scss */
+.better-docs-nav ul {
+  list-style: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+/* line 11, src/sass/components/_betterDocs.scss */
+.better-docs-nav ul > li {
+  display: inline-block;
+}
+
+/* line 16, src/sass/components/_betterDocs.scss */
+.better-docs-nav a {
+  padding: 0.3125em 0.6875em;
+  text-decoration: none;
+}
+
+/* line 20, src/sass/components/_betterDocs.scss */
+.better-docs-nav a:active, .better-docs-nav a:focus, .better-docs-nav a:hover {
+  background-color: #e5e5e5;
+  text-decoration: none;
+}
+
+/* line 27, src/sass/components/_betterDocs.scss */
+.better-docs-nav a.active {
+  background-color: #0088cc;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (min-width: 60em) {
+  /* line 37, src/sass/components/_betterDocs.scss */
+  .better-docs-nav-sticky {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  /* line 42, src/sass/components/_betterDocs.scss */
+  .better-docs-nav-sticky ul {
+    background-color: #f7f7f7;
+    position: fixed;
+    width: 47.2%;
+  }
+}
+
+/* line 50, src/sass/components/_betterDocs.scss */
+.better-docs-wide-content {
+  position: relative;
+}
+
+@media (min-width: 60em) {
+  /* line 54, src/sass/components/_betterDocs.scss */
+  .better-docs-wide-content > h1,
+  .better-docs-wide-content > h2,
+  .better-docs-wide-content > h3,
+  .better-docs-wide-content > h4,
+  .better-docs-wide-content > h5,
+  .better-docs-wide-content > h6,
+  .better-docs-wide-content > p,
+  .better-docs-wide-content > table,
+  .better-docs-wide-content > ul,
+  .better-docs-wide-content > ol,
+  .better-docs-wide-content > dl {
+    margin-right: 52.8%;
+  }
+  /* line 68, src/sass/components/_betterDocs.scss */
+  .better-docs-wide-content > table {
+    max-width: 47.2%;
+  }
+  /* line 72, src/sass/components/_betterDocs.scss */
+  .better-docs-wide-content .better-docs-nav,
+  .better-docs-wide-content blockquote,
+  .better-docs-wide-content pre {
+    clear: right;
+    float: right;
+    width: 47.2%;
+  }
+}
+
+/* line 81, src/sass/components/_betterDocs.scss */
+.better-docs-wide-content blockquote {
+  font-size: 1em;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+/* line 86, src/sass/components/_betterDocs.scss */
+.better-docs-wide-content blockquote p:last-child {
+  margin-bottom: 0.5em;
+}
+
+@media (min-width: 60em) {
+  /* line 92, src/sass/components/_betterDocs.scss */
+  .complete.better-docs-wide-bg body {
+    background-image: linear-gradient(to right, #f7f7f7 0, #f7f7f7 25%, transparent 25%, transparent 63%, #f7f7f7 63%, #f7f7f7 100%);
+  }
+}
