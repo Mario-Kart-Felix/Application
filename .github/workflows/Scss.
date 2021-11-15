@@ -1,0 +1,71 @@
+* line 25, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+/* line 25, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+
+table.action-timers-form {
+  thead th {
+    padding-bottom: 5px;
+  }
+  tfoot td {
+    border-top: 1px solid #AAAAAA;
+    padding-top: 5px;
+  }
+  .timer-total-column {
+    width: 75px;
+    overflow: hidden;
+  }
+  input.time-input {
+    max-width: 200px;
+  }
+  th {
+    border-bottom: 1px solid #AAAAAA;
+    font-weight: bold;
+  }
+}
+
+/* line 28, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+
+/* line 32, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+
+/* line 36, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+
+/* line 39, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+
+/* line 28, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+/* line 32, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+/* line 36, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+/* line 39, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+/* line 45, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+/* line 55, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+
+a.delete-timer {
+  text-decoration: none;
+  color: transparent;
+  width: 16px;
+  display: inline-block;
+  img {
+    width: 0;
+  }
+}
+
+/* line 60, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+
+/* line 50, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+/* line 55, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+/* line 69, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+
+table.action-timers-form tbody tr:hover {
+  background-color: #F5F4DE;
+  a.delete-timer img {
+    width: 16px;
+  }
+}
+
+/* line 71, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+
+/* line 57, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+/* line 62, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+/* line 80, ../../../../../compass/sass/protected/modules/actions/assets/css/actionTimersForm.scss */
+
+span.timer-total.negative {
+  color: red;
+}
