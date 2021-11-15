@@ -1,0 +1,6 @@
+; Settings for the "Locate ADVENT Prison Compound" Covert Action
+; Warning: If you activate bRandomClass, make sure you update the following:
+;
+;  RandomSoldierClasses under [XComGame.XComGameState_CovertAction] in XComGameBoard.ini
+;
+; to support your custom classes or character, or you won't be able to particpate.
